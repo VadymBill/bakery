@@ -1,141 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Delivery</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">Reviews</a></li>
-        </ul>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- шапка сайту(header) -->
+    <header class="header">
+        <div class="container">
+      <ul class="header-list">
+        <li class="header-options"><a href="#" class="header-link">About us</a></li>
+        <li class="header-options"><a href="#" class="header-link">Delivery</a></li>
+        <li class="header-options"><a href="#" class="header-link">Menu</a></li>
+        <li class="header-options"><a href="#" class="header-link">Contacts</a></li>
+        <li class="header-options"><a href="#" class="header-link">Reviews</a></li>
+      </ul>
+      </div>
     </header>
+    <!-- section payment -->
     <main>
-    <section>
-        <h1>TRADITIONAL 
-            ARTISAX BAKERY</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-   <button type="button">SHOP NOW</button>
-   <ul>
-    <li>
-        <img src="" alt="">
-        <h2>$8.00(kg)</h2>
-        <p>American Cockie</p>
-   <button type="button">BUY</button>
-    </li>
-    <li>
-        <img src="" alt="">
-        <h2>$4.00</h2>
-        <p>Crushed with
-            chockolate</p>
-            <button type="button">BUY</button>
-    </li>
-    <li><img src="" alt="">
-       <h2> For piece 
-        $4.00</h2>
-        <p>Blackberry pie</p>
-        <button type="button">BUY</button>
-    </li>
-   </ul>
-            </section>
-           
-            <section>
-                <h2>
-                    Menu
-                </h2>
-            <ul>
-                <li><img src="" alt="">
-                <h2>Breads</h2>
-                <button type="button">Order</button>
-                </li>
-                <li>
-                    <img src="" alt="">
-                <h2>
-                    Bekary
-                </h2>
-                <button type="button">Order</button></li>
-                <li><img src="" alt="">
-                    <h2>
-    Cakes & Cupcakes
-                    </h2>
-                    <button type="button">Order</button></li>
-                <li><img src="" alt="">
-                    <h2>
-                        Coockies&Pretzels
-                    </h2>
-                    <button type="button">Order</button></li>
-            </ul>    
-            </section>
-            <section>
-                <ul>
-                    <li>
-                        <img src="" alt="">
-                        <p>1.Flour with fresh wheat
-                            2.New drozzhi
-                            3.Fresh eggs
-                            4.Water from the well
-                            </p>
-                    </li>
-                    <li><img src="" alt="">
-                   <p>1.Flour with fresh wheat
-                    2.New drozzhi
-                    3.Fresh eggs
-                    4.Water from the well</p>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <p>1.Flour with fresh wheat
-                            2.New drozzhi
-                            3.Fresh eggs
-                            4.Water from the well</p>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>
-                    Why TRADITIONALARTISAX BAKERY ?
-                </h2>
-                <ul>
-                    <li><img src="" alt="">
-                    <p>Order at home</p></li>
-                    <li><img src="" alt="">
-                        <p>Fresh food</p></li>
-                    <li><img src="" alt="">
-                        <p>Speed Delivery 24 h</p></li>
-                </ul>
-            </section>
-            <section>
-                <h2>Where</h2>
-                <img src="" alt="">
-
-            </section>
-        </main>
-            <footer>
-                <h2>TRADITIONAL 
-                    ARTISAX BAKERY</h2>
-                    <p>
-                        We want be helthy
-                    </p>
-                    <ul>
-                        <li><a href="">About</a>
-                        <a href=""></a>
-                    <a href=""></a>
-                <a href=""></a></li>
-                        <li><a href="">About</a>
-                            <a href=""></a>
-                        <a href=""></a>
-                    <a href=""></a></li>
-                        <li><a href="">About</a>
-                            <a href=""></a>
-                        <a href=""></a>
-                    <a href=""></a></li>
-                    </ul>
-            </footer>
-</body>
+      <section class="payment">
+        <div class="container">
+        <h1 class="payment-title">TRADITIONAL ARTISAX BAKERY</h1>
+        <p class="payment-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged.
+        </p>
+        <button type="button" class="payment-shop">SHOP NOW</button>
+        <ul class="payment-list">
+          <li class="payment-option">
+            <img src="/images/cookies.png" alt="" class="payment-image" />
+            <div class="payment-div">
+            <h2 class="payment-button">$8.00(kg)</h2>
+            <p class="payment-text">American Cockie</p>
+            <button type="button" class="payment-button">BUY</button>
+        </div>
+          </li>
+          <li class="payment-option">
+            <img src="/images/croissant.png" alt="" class="payment-image"/>
+            <div class="payment-div">
+            <h2 class="payment-button">$4.00</h2>
+            <p class="payment-text">Crushed with chockolate</p>
+            <button type="button" class="payment-button">BUY</button>
+        </div>
+          </li>
+          <li class="payment-option">
+            <div class="payment-div">
+            <img src="/images/blackberry-pie.png" alt="" class="payment-image"/>
+            <h2 class="payment-button">For piece $4.00</h2>
+            <p class="payment-text">Blackberry pie</p>
+            <button type="button" class="payment-button">BUY</button>
+        </div>
+          </li>
+        </ul>
+    </div>
+      </section>
+      <!-- section menu -->
+      <section>
+        <div class="container">
+        <h2 class="menu-menu">Menu</h2>
+        <ul class="menu-list">
+          <li class="menu-options">
+            <img src="" alt="" class="menu-image" />
+            <h2 class="menu-title">Breads</h2>
+            <button type="button" class="menu-button">Order</button>
+          </li>
+          <li class="menu-options">
+            <img src="" alt="" class="menu-image" />
+            <h2 class="menu-title">Bekary</h2>
+            <button type="button" class="menu-button">Order</button>
+          </li>
+          <li class="menu-options">
+            <img src="" alt="" class="menu-image" />
+            <h2 class="menu-title">Cakes & Cupcakes</h2>
+            <button type="button" class="menu-button">Order</button>
+          </li>
+          <li class="menu-options">
+            <img src="" alt="" class="menu-image" />
+            <h2 class="menu-title">Coockies&Pretzels</h2>
+            <button type="button" class="menu-button">Order</button>
+          </li>
+        </ul>
+    </div>
+      </section>
+      <!-- section quality -->
+      <section>
+        <div class="container">
+        <ul class="quality-list">
+          <li class="quality-options">
+            <img src="" alt="" class="quality-image" />
+            <p class="quality-text">
+              1.Flour with fresh wheat 2.New drozzhi 3.Fresh eggs 4.Water from
+              the well
+            </p>
+          </li>
+          <li class="quality-options">
+            <img src="" alt="" class="quality-image" />
+            <p class="quality-text">
+              1.Flour with fresh wheat 2.New drozzhi 3.Fresh eggs 4.Water from
+              the well
+            </p>
+          </li>
+          <li class="quality-options">
+            <img src="" alt="" class="quality-image" />
+            <p class="quality-text">
+              1.Flour with fresh wheat 2.New drozzhi 3.Fresh eggs 4.Water from
+              the well
+            </p>
+          </li>
+        </ul>
+    </div>
+      </section>
+      <!-- section why-us -->
+      <section>
+        <div class="container">
+        <h2 class="why-us-title">Why TRADITIONALARTISAX BAKERY ?</h2>
+        <ul class="why-us-list">
+          <li class="why-us-options">
+            <img src="" alt="" class="why-us-image" />
+            <p class="why-us-text">Order at home</p>
+          </li>
+          <li class="why-us-options">
+            <img src="" alt="" class="why-us-image" />
+            <p class="why-us-text">Fresh food</p>
+          </li>
+          <li class="why-us-options">
+            <img src="" alt="" class="why-us-image" />
+            <p class="why-us-text">Speed Delivery 24 h</p>
+          </li>
+        </ul>
+    </div>
+      </section>
+      <!-- section where -->
+      <section>
+        <div class="container">
+        <h2 class="where-title">Where</h2>
+        <img src="./images/streetimage.png" alt="" class="where-image" />
+        <h2 class="where-how">How</h2>
+        <ul class="where-list">
+          <li class="where-options">
+            <a href="tel:+38 055 123 13 12" class="where-number"
+              >+38 055 123 13 12</a
+            >
+          </li>
+          <li class="where-options">
+            <a href="https://www.tiktok.com/uk-UA/" class="where-link"
+              >Tik tok.:@TR.Bekary</a
+            >
+          </li>
+          <li class="where-options">
+            <a href="https://www.instagram.com/" class="where-link"
+              >Inst:@TR.Bekary</a
+            >
+          </li>
+        </ul>
+        <h2 class="where-when">When</h2>
+        <p class="where-text">with 8:30 to 20:30</p>
+    </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+      <h2 class="footer-title">TRADITIONAL ARTISAX BAKERY</h2>
+      <p class="footer-text">We want be helthy</p>
+      <ul class="footer-text">
+        <li class="footer-options"><a href="" class="footer-link">About</a></li>
+        <li class="footer-options">
+          <a href="" class="footer-link">About us </a>
+        </li>
+        <li class="footer-options">
+          <a href="" class="footer-link">Features </a>
+        </li>
+        <li class="footer-options">
+          <a href="" class="footer-link">News & Blog </a>
+        </li>
+        <li><a href="" class="footer-link">Movement </a></li>
+        <li class="footer-options">
+          <a href="" class="footer-link">What Eatly</a>
+        </li>
+        <li class="footer-options">
+          <a href="" class="footer-link">Support Us</a>
+        </li>
+        <li class="footer-options">
+          <a href="" class="footer-link">Company</a>
+        </li>
+        <li class="footer-options">
+          <a href="" class="footer-link">Why Eatly </a>
+        </li>
+        <li class="footer-options">
+          <a href="" class="footer-link">Capital</a>
+        </li>
+        <li class="footer-options">
+          <a href="" class="footer-link">Securaty</a>
+        </li>
+      </ul>
+    </div>
+    </footer>
+  </body>
 </html>
