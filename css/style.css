@@ -102,3 +102,140 @@ margin-right: 53px;
 height: 225px;
 flex-shrink: 0;
 }
+.menu{
+    background-color: var(--background-color);
+}
+.menu-menu{
+    color: var(--text-color);
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+}
+.flex-menu{
+    display: flex;
+    flex-direction: column;
+}
+.flex-list{
+    display: flex;
+    flex-direction: column;
+}
+.menu-list{
+    display: flex;
+}
+.menu-options{
+
+}
+.menu-options1{
+    border: 1px solid var(--text-color);  
+}
+.menu-title{
+    color: var(--text-color);
+font-family: Inter;
+font-size: 25.92px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.menu-button{
+    border-radius: 17px;
+background: #B47B48;
+border-color: transparent;
+}
+
+.quality-list{
+display: flex;
+
+}
+.quality-options :nth-child(1){
+    margin-top: 104px;
+    
+    }
+    .quality-options :nth-child(2){
+        margin-top: 104px;
+        }
+        .quality-options :nth-child(3){
+            margin-top: 104px;
+            } 
+  
+.why{
+background-color: var(--background-color);
+}
+
+.why-us-title{
+    color: var(--title-color);
+font-family: Italiana;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.why-us-list{
+    display: flex;
+}
+.why-us-text{
+    color: var(--text-color);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.where{
+    background-color: var(--background-color);
+}
+.where-title{
+    color:var(--text-color);
+    font-family: Italiana;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer{
+    background-color: #202023;
+}
+.footer-title{
+    color: var(--text-color);
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+.footer-text{
+    color: var(--text-color);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+
+.footer-div{
+display: flex;
+}
+.footer-div :nth-child(1){
+    margin-right: 141px;
+}
+.footer-div :nth-child(2){
+    margin-right: 141px;
+}
+.footer-link{
+    color: var(--text-color);
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
