@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+ />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -43,24 +47,24 @@
           <li class="payment-option">
             <img src="/images/cookies.png" alt="" class="payment-image" />
             <div class="payment-div">
-            <h2 class="payment-button">$8.00(kg)</h2>
-            <p class="payment-text">American Cockie</p>
+            <h2 class="payment-price">$8.00(kg)</h2>
+            <p class="payment-description">American Cockie</p>
             <button type="button" class="payment-button">BUY</button>
         </div>
           </li>
           <li class="payment-option">
             <img src="/images/croissant.png" alt="" class="payment-image"/>
             <div class="payment-div">
-            <h2 class="payment-button">$4.00</h2>
-            <p class="payment-text">Crushed with chockolate</p>
+            <h2 class="payment-price">$4.00</h2>
+            <p class="payment-description">Crushed with chockolate</p>
             <button type="button" class="payment-button">BUY</button>
         </div>
           </li>
           <li class="payment-option">
             <div class="payment-div">
             <img src="/images/blackberry-pie.png" alt="" class="payment-image"/>
-            <h2 class="payment-button">For piece $4.00</h2>
-            <p class="payment-text">Blackberry pie</p>
+            <h2 class="payment-price">For piece $4.00</h2>
+            <p class="payment-description">Blackberry pie</p>
             <button type="button" class="payment-button">BUY</button>
         </div>
           </li>
@@ -74,33 +78,33 @@
         <ul class="menu-list">
           
           <li class="menu-options">
-           <div class=""></div>
+           <div class="menu-div">
             <img src="./images/white-bread.png" alt="" class="menu-image" />
             <h2 class="menu-title">Breads</h2>
-         
+          </div>
             <button type="button" class="menu-button">Order</button>
           </li>
           <li class="menu-options">
-           
+           <div class="menu-div">
             <img src="./images/Group 9.png" alt="" class="menu-image" />
            
-          
+          </div>
             <button type="button" class="menu-button">Order</button>
           </li>
        
         
           <li class="menu-options">
-            
+            <div class="menu-div">
             <img src="./images/Group 28.png" alt="" class="menu-image" />
             <h2 class="menu-title">Cakes & Cupcakes</h2>
-          
+          </div>
             <button type="button" class="menu-button">Order</button>
           </li>
           <li class="menu-options">
-            >
+            <div class="menu-div">
             <img src="./images/Group 29.png" alt="" class="menu-image" />
             <h2 class="menu-title">Coockies&Pretzels</h2>
-          
+          </div>
             <button type="button" class="menu-button">Order</button>
           </li>
         
@@ -108,8 +112,9 @@
     </div>
       </section>
       <!-- section quality -->
-      <section>
+      <section class="quality">
        <div class="container">
+        <h2 class="quality-title">Quality our bekary</h2>
         <ul class="quality-list">
           
           <li class="quality-options">
@@ -167,11 +172,14 @@
       <section class="where">
         <div class="container">
         <h2 class="where-title">Where</h2>
+        <div class="where-img">
         <img src="./images/streetimage.png" alt="" class="where-image" />
+        <div class="where-div2">
+        
         <h2 class="where-how">How</h2>
         <ul class="where-list">
           <li class="where-options">
-            <a href="tel:+38 055 123 13 12" class="where-number"
+            <a href="tel:+38 055 123 13 12" class="where-link"
               >+38 055 123 13 12</a
             >
           </li>
@@ -186,17 +194,25 @@
             >
           </li>
         </ul>
+      <div class="where-div1">
         <h2 class="where-when">When</h2>
         <p class="where-text">with 8:30 to 20:30</p>
+      </div>
+    </div>
+  </div>
     </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
         <div class="container">
+<div class="footer-div2">
+          <div class="footer-div1">
       <h2 class="footer-title">TRADITIONAL ARTISAX BAKERY</h2>
       <p class="footer-text">We want be helthy</p>
+    </div>
       <div class="footer-div">
+
       <ul class="footer-list">
         <li class="footer-options"><a href="" class="footer-link">About</a></li>
         <li class="footer-options">
@@ -236,7 +252,8 @@
         </li>
       </ul>
     </div>
-      <p>@2022 Eatly.All right riserved.</p>
+    </div>
+      <p class="footer-rights">@2022 Eatly.All right riserved.</p>
     </div>
     </footer>
   </body>
