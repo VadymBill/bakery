@@ -61,10 +61,12 @@ font-family: "Inter";
 }
 .payment-text{
     color: var(--text-color);
-font-size: 21px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    font-family: "Inter";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+width: 570.253px;
 }
 .payment-price{
     color: var(--text-color);
@@ -93,33 +95,32 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 border-radius: 17px;
-width: 207px;
-height: 57px;
+padding-left: 34px;
+padding-right: 34px;
+padding-top: 10px;
+padding-bottom: 7px;
 flex-shrink: 0;
+border-color: transparent;
+margin-bottom: 132px;
+margin-top: 33px;
 }
 .payment-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .payment-option{
     width: 310px;
 height: 225px;
 flex-shrink: 0;
 background-color: var(--background-payment);
-margin-left: 40px;
-margin-right: 40px;
-display: flex;
-}
 
-.payment-option:nth-child(1){
-    margin-left: 0px;
- 
+display: flex;
+margin-bottom: 36px;
 }
 .payment-option:nth-child(3){
-    margin-right: 0px;
-    background-color: #EBAD51;
-}   
-
+background-color: #EBAD51;
+} 
 .payment-div{
     display: flex;
     flex-direction: column;
@@ -131,6 +132,7 @@ height: 225px;
 flex-shrink: 0;
 }
 .payment-button{
+    display: block;
     padding-left: 22px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -138,12 +140,10 @@ flex-shrink: 0;
     color: var(--text-color);
 font-family: "Inter";
 font-size: 25.92px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
 background-color: #C85312;
-border: 0px;
-margin-bottom: 10px;
+border-color: transparent;
+
 }
 .menu{
     background-color: var(--background-color);
@@ -155,11 +155,26 @@ font-size: 64px;
 font-style: normal;
 font-weight: 100;
 line-height: normal;
+text-align: center;
 }
 
 .menu-list{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.menu-options{
+    margin-right: 200px;
+}
+.menu-options:nth-child(2){
+    margin-right:0px;
+}
+.menu-options:nth-child(4){
+    margin-right:0px;
+   
+}
+
 .menu-title{
     color: var(--text-color);
 font-family: Inter;
@@ -167,6 +182,7 @@ font-size: 25.92px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+text-align: center;
 }
 .menu-button{
     border-radius: 17px;
@@ -176,12 +192,18 @@ padding-right: 43px;
 padding-left: 43px;
 padding-top: 3px;
 padding-bottom: 7px;
-color: #FFF;
-font-family: Inter;
+color: var(--text-color);
+font-family: "Inter";
 font-size: 25.92px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+margin: 0 auto;
+display: block;
+}
+.menu-image{
+    height: 200px;
+
 }
 .menu-div{
     border: 1px solid var(--text-color);
@@ -191,37 +213,67 @@ line-height: normal;
 }
 .quality{
     background-color: var(--background-color);
+   
+   
+
+}
+.quality-div{
+    background: rgba(242, 242, 242, 0.30);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(18px);
+  
+
+flex-shrink: 0;
+}
+.quality-options{
+    outline: solid orange;
+}
+.quality-text{
+    color: var(--text-color);
+font-family: "Inter";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .quality-list{
 display: flex;
-
 }
 .quality-title{
-    color: #FFF;
-font-family: Italiana;
+    color: var(--text-color);
+font-family: "Italiana";
 font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-left: 400px;
+padding-top: 90px;
 }
-.quality-list :nth-child(1){
-    padding-top: 104px;
-    
+.quality-options:nth-child(1){
+  position: relative;
+bottom: 100px;
     }
-    .quality-list :nth-child(2){
-        padding-top: 104px;
+    .quality-options:nth-child(2){
+        position: relative;
+    top: 50px;
         }
-        .quality-list :nth-child(3){
-            padding-top: 104px;
+        .quality-options:nth-child(3){
+            position: relative;
+            top:150px;
             } 
-  
+ 
 .why{
 background-color: var(--background-color);
+background-image:  linear-gradient(90deg, #000 8.49%, rgba(3, 3, 3, 0.00) 77.17%),url(../images/photo_2022-06-23_21-45-36\ 1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 1160px;
+
 }
 
 .why-us-title{
     color: var(--title-color);
-font-family: Italiana;
+font-family: "Italiana";
 font-size: 48px;
 font-style: normal;
 font-weight: 400;
@@ -311,6 +363,8 @@ font-size: 40px;
 font-style: normal;
 font-weight: 200;
 line-height: normal;
+max-width: 322px;
+
 }
 .footer-text{
     color: var(--text-color);
@@ -328,15 +382,8 @@ line-height: normal;
 }
 
 
-.footer-div{
-display: flex;
-}
-.footer-div :nth-child(1){
-    margin-right: 141px;
-}
-.footer-div :nth-child(2){
-    margin-right: 141px;
-}
+
+
 .footer-link{
     color: var(--text-color);
 text-align: center;
@@ -356,4 +403,5 @@ line-height: normal;
 }
 .footer-div2{
     display: flex;
+    justify-content: space-between;
 }
