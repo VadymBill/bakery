@@ -216,17 +216,17 @@ display: block;
 }
 .quality{
     background-color: var(--background-color);
+    position: relative;
 }
 .quality-text{
     background: rgba(242, 242, 242, 0.30);
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(18px);
-  
-
-flex-shrink: 0;
 }
 .quality-options{
     outline: solid orange;
+    display: inline-block;
+    
 }
 .ol-text{
     color: var(--text-color);
@@ -236,9 +236,6 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.quality-list{
-display: flex;
-}
 .quality-title{
     color: var(--text-color);
 font-family: "Italiana";
@@ -246,20 +243,24 @@ font-size: 64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-position: absolute;
+
 }
 .quality-options:nth-child(1){
-  position: relative;
-bottom: 100px;
-    }
-    .quality-options:nth-child(2){
-        position: relative;
-    top: 50px;
-        }
-        .quality-options:nth-child(3){
-            position: relative;
-            top:150px;
-            } 
+    position: absolute;
+ top: 104px;
+
+      }
+      .quality-options:nth-child(2){
+          position: absolute;
+      top: 249px;
+     right: 400px;
+      transform: translateX(-400px);
+          }
+          .quality-options:nth-child(3){
+              position: absolute;
+              top:288px;
+              
+              } 
  
 .why{
 background-color: var(--background-color);
