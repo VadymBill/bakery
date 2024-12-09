@@ -9,7 +9,6 @@ h1,h2,h3,p,ul,li,a,img{
     margin: 0;
     padding: 0;
     text-decoration: none;
-   
 }
 ul{
     list-style: none;
@@ -21,6 +20,9 @@ ul{
     --button-color:#B47B48;
     --background-payment:#272727;
     --background-gold:#EBAD51;
+}
+body{
+    background-color: var(--background-color);
 }
 .header{
   position: absolute;
@@ -150,6 +152,7 @@ border-color: transparent;
 }
 .menu{
     background-color: var(--background-color);
+    margin-bottom: 163px;
 }
 .menu-menu{
     color: var(--text-color);
@@ -215,8 +218,20 @@ display: block;
     flex-shrink: 0;
 }
 .quality{
-    background-color: var(--background-color);
+    background-image: url(../images/Group\ 54.png);
+    background-repeat: repeat-x;
     position: relative;
+}
+.quality-title{
+    position: relative;
+    top:-75px;
+    left: 550px;
+    color: var(--text-color);
+font-family: "Italiana";
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .quality-text{
     background: rgba(242, 242, 242, 0.30);
@@ -236,38 +251,33 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.quality-title{
-    color: var(--text-color);
-font-family: "Italiana";
-font-size: 64px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+
+.quality-options1{
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    margin-right: 100px; 
 
 }
-.quality-options:nth-child(1){
-    position: absolute;
- top: 104px;
-
-      }
-      .quality-options:nth-child(2){
-          position: absolute;
-      top: 249px;
-     right: 400px;
-      transform: translateX(-400px);
-          }
-          .quality-options:nth-child(3){
-              position: absolute;
-              top:288px;
-              
-              } 
+.quality-options2{
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    margin-right: 100px;     
+}
+.quality-options3{
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
  
 .why{
 background-color: var(--background-color);
-background-image:  linear-gradient(90deg, #000 8.49%, rgba(3, 3, 3, 0.00) 77.17%),url(../images/photo_2022-06-23_21-45-36\ 1.jpg);
+background-image: linear-gradient(90deg, #000 8.49%, rgba(3, 3, 3, 0.00) 77.17%),url(../images/photo_2022-06-23_21-45-36\ 1.jpg);
 background-repeat: no-repeat;
 background-position: center;
-background-size: 1160px;
+padding-top: 55px;
+padding-bottom: 55px;
 
 }
 
@@ -280,7 +290,6 @@ font-weight: 400;
 line-height: normal;
 width: 735px;
 margin-bottom: 135px;
-margin-top: 55px;
 
 }
 .why-us-list{
@@ -294,10 +303,12 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+
 }
 
 .where{
     background-color: var(--background-color);
+    margin-top: 118px;
 }
 .where-title{
     color:var(--text-color);
@@ -306,11 +317,13 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 44px;
 }
 .where-image{
     width: 535.213px;
 height: 487px;
 flex-shrink: 0;
+margin-right: 132px;
 }
 .where-div2{
     display: flex;
@@ -336,6 +349,8 @@ font-size: 24px;
 font-style: normal;
 font-weight: 200;
 line-height: normal;
+width: 180px;
+padding-right:10px;
 }
 .where-when{
     color: var(--text-color);
@@ -343,7 +358,12 @@ font-family: "Inter";
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
-line-height: normal
+line-height: normal;
+margin-bottom: 40px;
+padding-right: 40px;
+}
+.where-options:nth-child(1){
+    margin-bottom:65px;
 }
 .where-how{
     color: var(--text-color);
@@ -352,6 +372,7 @@ font-size: 40px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 49px;
 }
 .footer{
     background-color: #202023;
@@ -364,7 +385,7 @@ font-style: normal;
 font-weight: 200;
 line-height: normal;
 max-width: 322px;
-
+margin-top: 62px;
 }
 .footer-text{
     color: var(--text-color);
@@ -405,3 +426,12 @@ line-height: normal;
     display: flex;
     justify-content: space-between;
 }
+.footer-options:nth-child(1){
+    margin-bottom: 50px;
+    margin-top: 40px;
+    }
+    .footer-rights{
+        text-align: center;
+        margin-bottom: 44px;
+        margin-top: 85px;
+    }
